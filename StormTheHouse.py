@@ -7,7 +7,9 @@ import win32api
 import win32con
 import pytesseract
 
-pytesseract.pytesseract.tesseract_cmd = r'C:\Program Files\Tesseract-OCR\tesseract.exe'
+
+#You need to have Tesseact installed and give the install path below
+pytesseract.pytesseract.tesseract_cmd = r'Tesseract Path'
 
 # pyautogui.displayMousePosition(1920,1080)
 # top left corner 1714 854
